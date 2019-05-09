@@ -6,9 +6,10 @@
 
 header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(peaceful.jpg);
-  height: 100vh;
+  height: 1000vh;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 
 }
 ul{
@@ -67,13 +68,55 @@ ul li.active a{
   color:#000;
 }
 .pdf{
+
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.06s ease;
+}
+.pdf:hover{
   background-color: #fff;
-  color=#000;
+  color:#000;
 }
 p{
   color: #fff;
+}
+.ref{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.ref h1{
+  color: #fff;
+  font-size: 70px;
+}
+.float{
+  position: absolute;
+  top:66%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.daa{
+  position: absolute;
+  top:76%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
-
-
-
+  .ooc{
+    position: absolute;
+    top:86%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    .se{
+      position: absolute;
+      top:96%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+a{
+  color: #fff;
 }
